@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:LocalNotificationsExemplo"
-             x:Class="LocalNotificationsExemplo.MainPage">
+             x:Class="LocalNotificationsExemplo.MainPage" Padding="0,20,0,0">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Testando Notificações"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="btnNotificar" Clicked="btnNotificar_Clicked" Text="Notificar"></Button>
+            <Button x:Name="btnAgendarNotificação" Clicked="btnAgendarNotificação_Clicked" Text="Agendar Notificação"></Button>
+            <Button x:Name="btnCancelarAgendamento" Clicked="btnCancelarAgendamento_Clicked" Text="Cancelar Notificação Agendada"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
