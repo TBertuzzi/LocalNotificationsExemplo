@@ -20,7 +20,7 @@ namespace LocalNotificationsExemplo
             CrossLocalNotifications.Current.Show("Testando as Notificações", "Ler mais Artigos do Bertuzzi no Medium");
         }
 
-        private void btnAgendarNotificação_Clicked(object sender, EventArgs e)
+        private void btnAgendarNotificacao_Clicked(object sender, EventArgs e)
         {
             CrossLocalNotifications.Current.Show("Testando as Notificações", "Agora va ler mais artigos do Bertuzzi no Medium", 1, DateTime.Now.AddSeconds(5));
         }

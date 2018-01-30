@@ -10,7 +10,7 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Button x:Name="btnNotificar" Clicked="btnNotificar_Clicked" Text="Notificar"></Button>
-            <Button x:Name="btnAgendarNotificação" Clicked="btnAgendarNotificação_Clicked" Text="Agendar Notificação"></Button>
+            <Button x:Name="btnAgendarNotificacao" Clicked="btnAgendarNotificacao_Clicked" Text="Agendar Notificação"></Button>
             <Button x:Name="btnCancelarAgendamento" Clicked="btnCancelarAgendamento_Clicked" Text="Cancelar Notificação Agendada"></Button>
         </StackLayout>
     </ContentPage.Content>
